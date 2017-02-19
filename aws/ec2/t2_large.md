@@ -1,3 +1,17 @@
+## Configuration
+
+- gp2
+- 100 Go
+- IOPS: 30/3000
+- 2 CPU 
+- 8 Go RAM
+
+## Metrics
+
+![](http://b3.ms/Vvb9OroKMW1g)
+
+## Results
+
 |   Lap |                         Metric |            Operation |       Value |   Unit |
 |------:|-------------------------------:|---------------------:|------------:|-------:|
 |   All |                  Indexing time |                      |     17.2246 |    min |
