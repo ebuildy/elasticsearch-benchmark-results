@@ -1,5 +1,7 @@
 # elasticsearch-benchmark-results
-Result of elasticsearch rally against misc configurations
+Result of elasticsearch rally against misc configurations.
+
+Use elasticsearch rally: https://github.com/elastic/rally/
 
 ## Usage
 
