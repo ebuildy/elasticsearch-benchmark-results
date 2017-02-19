@@ -1,15 +1,22 @@
+adduser --disabled-password --gecos "" elasticsearch
 
-sudo add-apt-repository ppa:webupd8team/java
+export LC_CTYPE=en_US.UTF-8
 
-sudo apt-get update
+add-apt-repository -y ppa:webupd8team/java
 
-sudo apt-get install -y oracle-java8-installer gradle python3-pip python3-dev
+echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | debconf-set-selections
 
-mkdir esrally
+apt-get update
 
-cd esrally
+apt-get install -y oracle-java8-installer gradle python3-pip python3-dev
+
+su elasticsearch
+
+cd && mkdir esrally && cd esrally
 
 pip3 install esrally
+
+export PATH=$PATH:/home/elasticsearch/.local/bin
 
 esrally configure
 
