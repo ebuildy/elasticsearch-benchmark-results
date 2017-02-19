@@ -9,6 +9,10 @@ https://www.ovh.com/fr/vps/vps-ssd.xml
 - SSD 40 Go
 - Local Raid 10
 
+## Benchmarks
+
+``esrally --distribution-version=5.0.0``
+
 ## Metrics
 
 ![](http://b3.ms/NPpnQpjeAEZg)
