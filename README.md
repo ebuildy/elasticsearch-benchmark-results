@@ -11,7 +11,7 @@ Use elasticsearch rally: https://github.com/elastic/rally/
 - 4 Take a coffee
 - 5 Wait ...
 - 6 Another coffee
-- 7 Fork this project, create folder based on your VM vendor (./aws/ec2/VM_t2_small_gp2_{EMAIL}.md)
+- 7 Fork this project, create folder based on your VM vendor (./aws/ec2/t2_small_gp2/es5/{you}.md)
 - 8 Copy/paste benchmarks result
 
 Thanks you !
